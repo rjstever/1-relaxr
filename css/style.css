@@ -1,0 +1,214 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+margin: auto;
+background-color: #ccc;
+}
+
+nav {
+font-family: "Open Sans", sans-serif;
+color: #fff;
+font-weight: 800;
+font-size: 30px;
+text-align: left;
+padding: 25px 50px 25px 50px; 
+}
+
+.p-nav {
+font-family: "Open Sans", sans-serif;
+color: #f9e42e;
+font-weight: 800;
+font-size: 30px;
+}
+
+.social {
+    margin: 25px 50px 100px 315px;
+}
+
+.soc-cont {
+    float: left;
+    padding: 0px 15px 0px 15px; 
+}
+
+.p-foot {
+font-family: "Open Sans", sans-serif;
+color: #fff;
+font-weight: 300;
+font-size: 12px;
+}
+
+
+h1 {
+font-family: "Open Sans", sans-serif;
+color: #fff;
+font-weight: 600;
+font-size: 30px;
+margin: 100px 50px 25px 50px;
+}
+
+h2 {
+margin: auto;
+font-family: "Open Sans", sans-serif;
+color: #033048;
+font-weight: 600;
+font-size: 24px;
+}
+
+a {
+color: #3399CC;
+}
+
+img {
+display: block;
+margin: auto;
+}
+
+p {
+font-family: "Open Sans", sans-serif;
+color: #999;
+font-weight: 300;
+font-size: 18px;
+}
+
+ul {
+font-family: "Open Sans", sans-serif;
+color: #999;
+font-weight: 300;
+font-size: 18px;
+}
+
+blockquote {
+font-family: "Open Sans", sans-serif;
+color: #fff;
+font-weight: 300;
+font-style: italic;
+font-size: 22px;
+}
+
+.qoutebox {
+    width: 450px;
+    margin: auto;
+}
+
+.bold {
+font-family: "Open Sans", sans-serif;
+color: #fff;
+font-weight: 600;
+font-style: normal;
+font-size: 22px;
+}
+	
+/******************************************
+/* LAYOUT
+/*******************************************/
+div.box-1 {
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background-image: url("../images/header_bg.jpg");
+    background-size: 900px 600px;
+    margin: auto;
+}
+
+div.box-2 {
+    width: 800px;
+    height: 300px;
+    background-color: #f0efef;
+    padding: 25px 100px;
+    margin: auto;
+}
+
+div.box-3 {
+    text-align: center;
+    width: 800px;
+    height: 250px;
+   	background-image: url("../images/testimonial_bg.jpg");
+   	opacity: 0.85;
+    padding: 50px 50px;
+    margin: auto;
+}
+
+div.box-4 {
+    text-align: center;
+    width: 800px;
+    height: 75px;
+    background-color: #f9e42e;
+    margin: auto;
+}
+
+div.box-5 {
+    text-align: center;
+    width: 800px;
+    height: 300px;
+    background-color: #333;
+    padding: 25px;
+    margin: auto;
+}
+
+ .button2 {
+  margin: 10px 5px 10px 5px;
+  display: inline-block;
+  padding: 10px 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #033048;
+  background-color: #fdf731;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px ##C8C8C8;
+}
+
+ .button3 {
+  margin: 16px 5px 22px 0px;
+  display: inline-block;
+  padding: 10px 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #033048;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px ##C8C8C8;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
